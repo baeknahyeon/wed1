@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>나의 시간표</title>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            th {background-color: #92A8D1;}
+            td {text-align:center;}
+            #time { table-layout: fixed; width:90%}
+            #time caption { font-size: 17pt; font-weight:bold; margin: 0.5em}
+            #web {background-color: rgb(255, 161, 161);}
+            #ai {background-color: rgb(255, 195, 122);}
+            #com {background-color: #f2ff79;}
+            #life {background-color: rgb(255, 196, 255);}
+        </style>
+    </head>
+    <body>
+        <table border="1" id="time">
+            <caption>1학기 시간표</caption>
+            <thead>
+                <tr>
+                    <th>교시</th>
+                    <th>월</th>
+                    <th>화</th>
+                    <th>수</th>
+                    <th>목</th>
+                    <th>금</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td rowspan="2" id="web">웹 프로그래밍1</td>
+                    <td>&nbsp;</td>
+                    <td rowspan="2" id="ai">인공지능개론</td>
+                    <td rowspan="2">&nbsp;</td>
+                    <td rowspan="2" id="web">웹 프로그래밍1</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td id="ai">인공지능개론</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td rowspan="2">&nbsp;</td>
+                    <td rowspan="2">빅데이터 기초</td>
+                    <td rowspan="2" id="com">컴퓨터시스템 기초</td>
+                    <td rowspan="2">데이터사이언스 기초</td>
+                    <td rowspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td colspan="5">점심시간</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td id="com">컴퓨터시스템 기초</td>
+                    <td>인제새내기세미나</td>
+                    <td>&nbsp;</td>
+                    <td rowspan="2" id="life">생명공학으로의 초대</td>
+                    <td rowspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td rowspan="2">&nbsp;</td>
+                    <td id="life">생명공학으로의 초대</td>
+                    <td rowspan="2">대학영어2</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
