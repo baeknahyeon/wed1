@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>반응형웹 연습문제</title>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            .divgroup {display: inline-block; border: 1px solid white; margin-bottom: 3px; padding-top: 3px; padding-left: 5px; padding-bottom: 80px;}
+            @media all and (max-width: 600px) {.divgroup {background-color: white; border: 3px dotted black; width: 80%;}}
+            @media all and (min-width: 600px) and (max-width: 1000px) {.divgroup {background-color: blue; width: 40%;}}
+            @media all and (min-width:1000px) {.divgroup {background-color: yellow; width: 30%;}}
+        </style>
+    </head>
+    <body>
+        <div>
+            <div class="divgroup">1번 영역</div>
+            <div class="divgroup">2번 영역</div>
+            <div class="divgroup">3번 영역</div>
+            <div class="divgroup">4번 영역</div>
+            <div class="divgroup">5번 영역</div>
+        </div>
+    </body>
+</html>
