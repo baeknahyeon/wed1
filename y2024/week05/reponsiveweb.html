@@ -5,7 +5,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <style>
-            .align{ display: inline-block; }
+            .align{ display: inline-block; text-align: center; border: 1px solid white; margin-bottom: 3px; padding-top: 3px; padding-left: 5px; padding-bottom: 80px;}
+            .divgroup {display: inline-block; border: 1px solid white; margin-bottom: 3px; padding-top: 3px; padding-left: 5px; padding-bottom: 80px;}
             #book {width: 100px; height: 150px;}
             @media all and (max-width: 600px) { .align div {width: 80%;} }
             @media all and (min-width: 600px) and (max-width: 1000px) { .align div {width: 40%;} }
@@ -16,22 +17,42 @@
         <div class="align">
             <h1>Webclass.ME</h1>
             <p>교재 구매하기</p>
-            <div>
+            <div class="divgroup">
                 <a href="html5_3e/index.html"><img src="개정판교재.jpg" id="book"/></a>
                 <p><input type="submit" onclick="location.href='html5_3e/index.html';" value="예제보기"></p>
                 <h3>HTML5 웹프로그래밍 입문 (개정판)</h3>
                 <p> 임순범/박희민 공저, 생능출판사,2016.3 </p>
             </div>
-            <div>
+            <div class="divgroup">
                 <a href="html5_3e/index.html"><img src="개정전교재.jpg" id="book"/></a>
                 <p><input type="submit" onclick="location.href='html5_3e/index.html';" value="예제보기"></p>
-                <h3>HTML5 웹프로그래밍 입문 (개정판)</h3>
+                <h3>HTML5 웹프로그래밍 입문</h3>
                 <p> 임순범/박희민/이창환 공저, 생능출판사,2013.7 </p>
             </div>
-            <div>
+            <div class="divgroup">
                 <img src="com_and_it.jpg" id="book">
                 <h3>컴퓨터와 IT기술의 이해</h3>
                 <p>최윤철/임순범/한탁돈 공저, 생능출판사, 2016.2</p>
+            </div>
+            <div class="divgroup">
+                <img src="internet.jpg" id="book">
+                <h3>인터넷 이해</h3>
+                <p>최윤철/임순범 공저, 생능출판사, 2014.1</p>
+            </div>
+            <div class="divgroup">
+                <img src="multi.jpg" id="book">
+                <h3>멀티미디어 배움터 2.0</h3>
+                <p>최윤철/임순범 공저, 생능출판사, 2016.8</p>
+            </div>
+            <div class="divgroup">
+                <img src="graphics.gif" id="book">
+                <h3>컴퓨터 그래픽스 배움터</h3>
+                <p>최윤철/임순범 공저, 생능출판사, 2015.8</p>
+            </div>
+            <div class="divgroup">
+                <img src="social.jpg" id="book">
+                <h3>소셜미디어의 이해와 활용</h3>
+                <p>최윤철/임순범 공저, 생능출판사, 2014.1</p>
             </div>
         </div>
     </body>
